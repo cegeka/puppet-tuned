@@ -1,5 +1,7 @@
 # tuned
 
+[![Build Status](https://travis-ci.org/bovy89/tuned.svg?branch=master)](https://travis-ci.org/bovy89/tuned)
+
 #### Table of Contents
 
 1. [Module Description - What the module does and why it is useful](#module-description)
