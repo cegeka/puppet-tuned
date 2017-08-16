@@ -3,10 +3,10 @@ require 'spec_helper'
 
 describe 'tuned::profile', :type => :define do
   let(:title) { 'mongodb' }
-  let(:pre_condition) { 'include ::tuned' }
 
   on_supported_os.each do |os, facts|
     context "on #{os}" do
+      let(:pre_condition) { 'class {"::tuned": active_profile => "mongodb", }' }
       let(:facts) do
         facts
       end
