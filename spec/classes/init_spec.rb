@@ -10,7 +10,7 @@ describe 'tuned', :type => :class do
 
       describe 'with default values for all parameters' do
         it { is_expected.to create_class('tuned') }
-        it { is_expected.to compile }
+        it { is_expected.to compile.with_all_deps }
 
         case facts[:operatingsystemmajrelease]
         when '6'
