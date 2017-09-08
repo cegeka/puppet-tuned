@@ -1,6 +1,6 @@
 {
   "name": "bovy89-tuned",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "bovy89",
   "summary": "This module manages tuned deamon",
   "license": "Apache-2.0",
